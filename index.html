@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вітрина</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Вітрина Продуктів</h1>
+    </header>
+
+    <main class="container">
+        <section class="showcase" id="showcase1">
+            <h2>Галерея Продуктів</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://halytska-svizhyna.ua/wp-content/uploads/2022/11/22983f80283711e89e98080027d5172e_20dc9050604411ed8621d45d6408b3ce.jpg" alt="Продукт 1">
+                    <p>Ковбаса</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://halytska-svizhyna.ua/wp-content/uploads/2022/11/22983f80283711e89e98080027d5172e_20dc9050604411ed8621d45d6408b3ce.jpg" alt="Продукт 1">
+                    <p>Ковбаса</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://halytska-svizhyna.ua/wp-content/uploads/2022/11/22983f80283711e89e98080027d5172e_20dc9050604411ed8621d45d6408b3ce.jpg" alt="Продукт 1">
+                    <p>Ковбаса</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="showcase" id="showcase2">
+            <h2>Інтерактивна Вітрина</h2>
+            <div class="interactive-item">
+                <img src="https://catjoy.com.ua/wp-content/uploads/2020/08/036d20221d40a1c5582564755bd0effb.jpg" alt="Інтерактивний об'єкт 1">
+                <p class="item-description">Наведіть та клікніть на мене!</p>
+            </div>
+            <div class="interactive-item">
+                <img src="https://catjoy.com.ua/wp-content/uploads/2020/08/036d20221d40a1c5582564755bd0effb.jpg" alt="Інтерактивний об'єкт 2">
+                <p class="item-description">Наведіть та клікніть на мене!</p>
+            </div>
+        </section>
+
+        <section class="showcase" id="showcase3">
+            <h2>Додайте свій продукт</h2>
+            <form id="add-item-form">
+                <input type="text" id="item-name" placeholder="Назва продукту" required>
+                <input type="url" id="item-image" placeholder="URL зображення" required>
+                <button type="submit">Додати продукт</button>
+            </form>
+            <div class="added-items" id="added-items"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Вітрина Продуктів. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
